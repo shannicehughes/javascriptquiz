@@ -1,0 +1,147 @@
+body{
+    background-image: url("genshin-impact-wallpaper-10.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 0;
+    margin: 0;    
+    width:100vw;
+    height: 100vh;    
+}
+.panel{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.question-container{
+    margin: 10px;
+    padding: 5px;
+    width: 80vw;
+    height: 10vh;
+    background-image: url("wallhaven-72oelv.jpg");
+    font-size: xxx-large;
+    text-align: center;
+      
+}
+.result{
+    margin: 10px;
+    padding: 5px;
+    width:80vw;
+    height: 10vh;
+    text-align: center;
+    font-size: 50px;
+      
+}
+.option-container{
+    display: flex;
+    justify-content: space-around; 
+    margin: 20px;
+    padding: 10px;
+    width: 80vw;
+    height: 26.5vh;
+    
+        
+}
+.option1{ 
+    display: flex;
+    background-image: url("sigil_PyroSigil.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: inline-block;  
+    font-size: xxx-large;
+    background-color: rgb(228, 114, 114);
+
+}
+.option2{ 
+    display: flex;
+    background-image: url("Item_Anemo_Sigil.webp");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: inline-block;  
+    font-size: xxx-large;
+    background-color: lightblue;
+}
+.option3{ 
+    display: flex;
+    background-image: url("Item_Electro_Sigil.webp");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: inline-block;  
+    font-size: xxx-large;
+    background-color: rgb(225, 135, 250);
+}
+.option4{ 
+    display: flex;
+    background-image: url("sigil_CryoSigil.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: inline-block;  
+    font-size: xxx-large;
+    background-color: rgb(103, 103, 255);
+
+}
+.option5{ 
+    display: flex;
+    background-image: url("Item_Geo_Sigil.webp");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: inline-block;  
+    font-size: xxx-large;
+    background-color: lightyellow;
+
+}
+.option:hover{
+    background-color: lightgoldenrodyellow;
+}
+.navigation{
+    width: 80vw;
+    height: 10vh;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    background-image: url("wallhaven-72oelv.jpg");
+  
+}
+  
+.evaluate,.next{
+    width:30vw;
+    height: 8vh;
+    padding: 5px;
+    font-size: xxx-large;
+}
+.evaluate{
+    background-color: lightgreen;
+}
+.next{
+    color: white;
+    background-color: lightblue;
+}
